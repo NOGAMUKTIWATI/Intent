@@ -17,17 +17,9 @@ yang dikirimkan oleh sistem Android untuk event booting tersebut.
 Intent merupakan objek tipe android.content.Intent. Melalui metode startActivity() yang 
 digunakan untuk memulai sebuah activity lain. 
 <h1>Intent Implicit<h1>
-<p>
-Implicit Intent berfungsi untuk memanggil fungsi activity yang sudah ada di fungsi 
-internal android seperti Dial Number, Open Browser dan lainnya. Tipe intent ini tidak 
-memerlukan detail nama kelas yang ingin diaktifkan. Model ini memungkinkan 
-komponen dari aplikasi lain bisa merespon request intent yang dijalankan. Penggunaan 
-tipe intent ini umumnya diperuntukan untuk menjalankan fitur/fungsi dari komponen
-aplikasi lain. Contohnya ketika kita membutuhkan fitur untuk mengambil foto. 
-Daripada membuat sendiri fungsi kamera, lebih baik kita menyerahkan proses tersebut 
-pada aplikasi kamera bawaan dari peranti atau aplikasi kamera lain yang telah terinstal 
-sebelumnya di peranti. Hal yang sama misalnya ketika kita membutuhkan fungsi 
-berbagi konten. Kita bisa memanfaatkan intent untuk menampilkan aplikasi mana saja 
-yang bisa menangani fitur tersebut. Implementasi implicit intent ini akan sangat 
-memudahkan bagi pengembang agar tetap fokus pada proses bisnis inti dari aplikasi 
-yang dikembangkan.</p>
+  
+
+![Intent Imp](https://user-images.githubusercontent.com/80508180/137124543-5905dd6c-dc76-4fa1-b67f-572ae324bba9.jpeg)
+  <br>
+![url](https://user-images.githubusercontent.com/80508180/137124554-b402f734-95f0-4a2e-be44-d74d2d00db6c.jpeg)
+
